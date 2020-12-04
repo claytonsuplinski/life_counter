@@ -1,0 +1,35 @@
+*{
+	font-family:'Lato';
+}
+
+html{
+	background:#682121;
+}
+
+body{
+	margin:0;
+}
+
+a, a:hover, a:active, a:focus{
+	color:inherit;
+	outline:0 !important;
+	text-decoration:none;
+}
+
+.header{
+	width:100%;
+	background:#a84141;
+	color:#fff;
+	font-size:22px;
+	font-weight:400;
+	text-align:center;
+	padding:5px;
+	margin:5px 0 10px;
+	border-top   :1px solid rgba(186, 191, 117, 0.5);
+	border-bottom:1px solid rgba( 87, 212, 124, 0.5);
+	box-sizing:border-box;
+}
+
+#content{
+	padding-bottom:30px;
+}

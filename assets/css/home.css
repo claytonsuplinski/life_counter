@@ -1,0 +1,60 @@
+.category{
+	width:95vw;
+	max-width:600px;
+	background:rgba(0,0,0,0.3);
+	margin:auto;
+	border:1px solid rgba(255,255,255,0.2);
+	margin-top:10px;
+}
+
+.category .category-name{
+	background:#0e515f;
+	color:#fff;
+	padding:5px 10px;
+	font-size:14px;
+	font-weight:400;
+	border-bottom:1px solid rgba(255,255,255,0.2);
+}
+
+.category .quantities{
+	padding:10px;
+	background:#3b8190;
+}
+
+.category .quantities table{
+	width:100%;
+	border:1px solid rgba(255,255,255,0.2);
+	border-collapse:collapse;
+}
+
+.category .quantities table td{
+	border:1px solid rgba(255,255,255,0.2);
+	font-size:14px;
+	padding:2px;
+}
+
+.category .quantities table td.name{
+	background:#072d3e;
+	color:#c3dde9;
+	padding-left:6px;
+	font-weight:300;
+}
+
+.category .quantities table td.value{
+	background:#a1d0e4;
+	color:#05141b;
+	width:250px;
+	text-align:right;
+	padding-right:6px;
+	font-weight:bold;
+}
+
+.category .quantities table tr:nth-child(2n) td.name  { background: #193f51; }
+.category .quantities table tr:nth-child(2n) td.value{ background: #b8dded; }
+
+.category .quantities table td.value .units{
+	margin-left:3px;
+	font-style:italic;
+	font-weight:400;
+	color:#1a3b42;
+}

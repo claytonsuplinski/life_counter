@@ -1,0 +1,64 @@
+[
+	{
+		"name"       : "Time Alive",
+		"quantities" : [
+			{ "name" : "In years"  , "value" : 1, "freq" :   "years", "precision" : 3 },
+			{ "name" : "In days"   , "value" : 1, "freq" :    "days", "precision" : 1 },
+			{ "name" : "In hours"  , "value" : 1, "freq" :   "hours", "precision" : 0 },
+			{ "name" : "In minutes", "value" : 1, "freq" : "minutes", "precision" : 0 },
+			{ "name" : "In seconds", "value" : 1, "freq" : "seconds", "precision" : 0 }
+		]
+	},
+	{
+		"name"       : "Physical Activity",
+		"quantities" : [
+			{ "name" : "Steps taken"    , "value" : 3000, "freq" : "days", "precision" : 0 },
+			{ "name" : "Distance walked", "value" :  1.5, "freq" : "days", "precision" : 2, "units" : "miles" },
+			{ "name" : "Calories burned", "value" : 2500, "freq" : "days", "precision" : 0 }
+		]
+	},
+	{
+		"name"       : "Entertainment",
+		"quantities" : [
+			{ "name" : "Watching TV"        , "value" :   4, "freq" : "hours", "precision" : 0, "divisor" : 24, "units" : "hours" },
+			{ "name" : "Using a computer"   , "value" : 3.5, "freq" : "hours", "precision" : 0, "divisor" : 24, "units" : "hours" },
+			{ "name" : "Playing video games", "value" : 0.5, "freq" : "hours", "precision" : 0, "divisor" : 24, "units" : "hours" }
+		]
+	},
+	{
+		"name"       : "Health",
+		"quantities" : [
+			{ "name" : "Awake"        , "value" :  18, "freq" :   "hours", "precision" : 0, "divisor" : 24, "units" : "hours" },
+			{ "name" : "Sleep"        , "value" :   6, "freq" :   "hours", "precision" : 0, "divisor" : 24, "units" : "hours" },
+			{ "name" : "Breaths taken", "value" :  18, "freq" : "minutes", "precision" : 0 },
+			{ "name" : "Heart beats"  , "value" :  90, "freq" : "minutes", "precision" : 0 },
+			{ "name" : "Eye blinks"   , "value" :  15, "freq" : "minutes", "precision" : 0 },
+			{ "name" : "Bathed"       , "value" : 0.5, "freq" :    "days", "precision" : 0, "units" : "times"   },
+			{ "name" : "Brushed teeth", "value" :   2, "freq" :    "days", "precision" : 0, "units" : "times"   },
+			{ "name" : "Bathroom - #1", "value" :   4, "freq" :    "days", "precision" : 0, "units" : "times"   },
+			{ "name" : "Liquid waste" , "value" : 135, "freq" :   "years", "precision" : 0, "units" : "gallons" },
+			{ "name" : "Bathroom - #2", "value" :   1, "freq" :    "days", "precision" : 0, "units" : "times"   },
+			{ "name" : "Solid waste"  , "value" : 320, "freq" :   "years", "precision" : 0, "units" : "lbs"     },
+			{ "name" : "Saliva"       , "value" :  91, "freq" :   "years", "precision" : 0, "units" : "gallons" }
+		]
+	},
+	{
+		"name"       : "Food / Diet",
+		"quantities" : [
+			{ "name" : "Water"         , "value" :   15, "freq" :  "days", "precision" : 0, "units" : "cups" },
+			{ "name" : "All Food"      , "value" : 1996, "freq" : "years", "precision" : 1, "units" :  "lbs" },
+			{ "name" : "All Grains"    , "value" :  199, "freq" : "years", "precision" : 1, "units" :  "lbs" },
+			{ "name" : "All Vegetables", "value" :  415, "freq" : "years", "precision" : 1, "units" :  "lbs" },
+			{ "name" : "All Fruit"     , "value" :  273, "freq" : "years", "precision" : 1, "units" :  "lbs" },
+			{ "name" : "All Meat"      , "value" :  190, "freq" : "years", "precision" : 1, "units" :  "lbs" },
+			{ "name" : "Beef"          , "value" :   55, "freq" : "years", "precision" : 1, "units" :  "lbs" },
+			{ "name" : "Chicken"       , "value" :   84, "freq" : "years", "precision" : 1, "units" :  "lbs" },
+			{ "name" : "Pork"          , "value" :   50, "freq" : "years", "precision" : 1, "units" :  "lbs" },
+			{ "name" : "All Dairy"     , "value" :  630, "freq" : "years", "precision" : 1, "units" :  "lbs" },
+			{ "name" : "Milk"          , "value" :    3, "freq" :  "days", "precision" : 0, "units" : "cups" },
+			{ "name" : "Cheese"        , "value" :   32, "freq" : "years", "precision" : 1, "units" :  "lbs" },
+			{ "name" : "Ice Cream"     , "value" :   24, "freq" : "years", "precision" : 1, "units" :  "lbs" },
+			{ "name" : "Pizza"         , "value" :   23, "freq" : "years", "precision" : 1, "units" :  "lbs" }
+		]
+	}
+]
