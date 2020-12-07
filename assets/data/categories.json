@@ -58,6 +58,7 @@
 			{ "name" : "Milk"          , "value" :    3, "freq" :  "days", "precision" : 0, "units" : "cups" },
 			{ "name" : "Cheese"        , "value" :   32, "freq" : "years", "precision" : 1, "units" :  "lbs" },
 			{ "name" : "Ice Cream"     , "value" :   24, "freq" : "years", "precision" : 1, "units" :  "lbs" },
+			{ "name" : "Cookies"       , "value" :  300, "freq" : "years", "precision" : 0 },
 			{ "name" : "Pizza"         , "value" :   23, "freq" : "years", "precision" : 1, "units" :  "lbs" }
 		]
 	}

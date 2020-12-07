@@ -1,9 +1,9 @@
 .category{
 	width:95vw;
 	max-width:600px;
-	background:rgba(0,0,0,0.3);
+	background:rgb(59, 129, 144);
 	margin:auto;
-	border:1px solid rgba(255,255,255,0.2);
+	border:1px solid rgba(255, 255, 255, 0.4);
 	margin-top:10px;
 }
 
@@ -13,7 +13,7 @@
 	padding:5px 10px;
 	font-size:14px;
 	font-weight:400;
-	border-bottom:1px solid rgba(255,255,255,0.2);
+	border-bottom:1px solid rgba(255,255,255,0.4);
 }
 
 .category .quantities{
@@ -23,19 +23,18 @@
 
 .category .quantities table{
 	width:100%;
-	border:1px solid rgba(255,255,255,0.2);
 	border-collapse:collapse;
 }
 
 .category .quantities table td{
-	border:1px solid rgba(255,255,255,0.2);
+	border:1px solid rgba(255,255,255,0.35);
 	font-size:14px;
 	padding:2px;
 }
 
 .category .quantities table td.name{
 	background:#072d3e;
-	color:#c3dde9;
+	color:#e1f5ff;
 	padding-left:6px;
 	font-weight:300;
 }
@@ -43,7 +42,7 @@
 .category .quantities table td.value{
 	background:#a1d0e4;
 	color:#05141b;
-	width:250px;
+	width:45%;
 	text-align:right;
 	padding-right:6px;
 	font-weight:bold;
@@ -54,6 +53,7 @@
 
 .category .quantities table td.value .units{
 	margin-left:3px;
+	font-size:12px;
 	font-style:italic;
 	font-weight:400;
 	color:#1a3b42;
